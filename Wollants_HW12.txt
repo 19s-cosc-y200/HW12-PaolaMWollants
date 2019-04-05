@@ -1,0 +1,40 @@
+Project Name: Hands-On Exercises 3.5-3.6 (HW12)  
+Author: Paola Wollants 
+Date Last Modified: April 5, 2019
+GitHub User: PaolaMWollants
+
+1. Write the HTML and CSS code for an embedded style sheet that configures
+links without underlines; a background color of white; text color of black;
+is in Arial, Helvetica, or sans-serif font; and has a class called new that
+is bold and italic
+
+<head>
+  <style type="text/css">
+   a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+   }
+.new {
+  font-style: italic;
+  font-weight: bold;
+   }
+  </style>
+</head>;
+
+2. Write the CSS code for an external style sheet that configures a page
+background color of #FFF8DC; has a text color of #000099; is in Arial,
+Helvetica, or a sans-serif font; and has an id called new that is bold and italic
+
+body {
+  background-color: #FFF8DC;
+  color: #000099;
+  font-family: Arial,Helvetica,sans-serif;
+ }
+.new {
+  font-weight: bold;
+  font-style: italic;
+}
+HTML:
+<link rel-"stylesheet"href="Syle.css" type="text/css"/>
