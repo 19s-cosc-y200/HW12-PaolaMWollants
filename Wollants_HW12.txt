@@ -23,6 +23,8 @@ is bold and italic
   </style>
 </head>;
 
+colors should be in HEX
+
 2. Write the CSS code for an external style sheet that configures a page
 background color of #FFF8DC; has a text color of #000099; is in Arial,
 Helvetica, or a sans-serif font; and has an id called new that is bold and italic
@@ -38,3 +40,5 @@ body {
 }
 HTML:
 <link rel-"stylesheet"href="Syle.css" type="text/css"/>
+
+should be id, not class
